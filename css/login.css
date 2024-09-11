@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+   /* Contenedor del formulario */
+   .container-forml {
+    height:auto;
+    width:20vw;
+    margin: 100px;
+    margin-left: 500px;
+    padding: 50px;
+    
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+/* Estilo del formulario */
+.login-form {
+   font-size: 2vh;
+    display: block;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30px; /* Ancho fijo para el formulario */
+    text-align: center; /* Centra el texto dentro del formulario */
+       
+}
+
+
+  button{
+    border-color: #7fafdf;
+    background-color:rgba(243, 0, 150, 0.25);/* Color de fondo */
+    color: rgb(232, 242, 232); /* Color */
+    margin-right: 2vw;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    padding: 2vw 2vh; /* Relleno interno */
+    padding-top: 2vh;
+    border:solid; /* Quita el borde */
+    border-radius: 10px; /* Borde redondeado */
+    text-align: center; /* Alineación del texto */
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    display: inline-block; /* Mostrar como bloque en línea */
+    font-size: 2vw; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  
+    
+  }
